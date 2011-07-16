@@ -1,0 +1,28 @@
+<%= stylesheet_link_tag '/vendor/stylesheets/nivo-slider/nivo-slider', :media => 'screen' %>
+<%= stylesheet_link_tag '/vendor/stylesheets/nivo-slider/themes/default/default', :media => 'screen' %>
+<%= javascript_include_tag "/vendor/javascripts/jquery.nivo.slider.pack.js" %>
+
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+</script>
+
+  <h1>Sample App</h1>
+
+  <p>
+    This is the home page for the
+    <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </p>
+  
+<div class="slider-wrapper theme-default">
+    <div class="ribbon"></div>
+    <div id="slider" class="nivoSlider">
+        <img src="/images/In-the-Storm-Be-stil.jpg" alt="" />
+        <img src="images/Reconciled.jpg" alt="" title="This is an example of a caption" />
+        <img src="images/walle.jpg" alt="" />
+        <img src="images/nemo.jpg" alt="" />
+    </div>
+</div>
+  <%= link_to "Go to the Gallery", "gallerypath", :class => "signup_button round" %>

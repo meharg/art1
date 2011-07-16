@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  legacy_id: MyString
+  title: MyString
+  desc: MyText
+  price: 9.99
+  category: MyString
+  priority: MyString
+  size: MyString
+  image: MyString
+  thumb_image: MyString
+  outsourced_url: MyString
+  medium: MyString
+
+two:
+  legacy_id: MyString
+  title: MyString
+  desc: MyText
+  price: 9.99
+  category: MyString
+  priority: MyString
+  size: MyString
+  image: MyString
+  thumb_image: MyString
+  outsourced_url: MyString
+  medium: MyString

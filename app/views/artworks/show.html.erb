@@ -1,0 +1,60 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Legacy:</b>
+  <%= @artwork.legacy_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @artwork.title %>
+</p>
+
+<p>
+  <b>Desc:</b>
+  <%= @artwork.desc %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @artwork.price %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @artwork.category %>
+</p>
+
+<p>
+  <b>Priority:</b>
+  <%= @artwork.priority %>
+</p>
+
+<p>
+  <b>Size:</b>
+  <%= @artwork.size %>
+</p>
+
+<p>
+  <b>Image:</b>
+  <%= @artwork.image %>
+</p>
+
+<p>
+  <b>Thumb image:</b>
+  <%= @artwork.thumb_image %>
+</p>
+
+<p>
+  <b>Outsourced url:</b>
+  <%= @artwork.outsourced_url %>
+</p>
+
+<p>
+  <b>Medium:</b>
+  <%= @artwork.medium %>
+</p>
+
+
+<%= link_to 'Edit', edit_artwork_path(@artwork) %> |
+<%= link_to 'Back', artworks_path %>

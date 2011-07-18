@@ -7,7 +7,6 @@ $(window).load(function() {
     $('#slider').nivoSlider();
 });
 </script>
-
   <h1>Sample App</h1>
 
   <p>
@@ -16,14 +15,35 @@ $(window).load(function() {
     sample application.
   </p>
   
-<div class="slider-wrapper theme-default">
-    <div class="ribbon"></div>
-    <div id="slider" class="nivoSlider">
-        <img src="assets/In-the-Storm-Be-stil.jpg" alt="" />
-        <img src="assets/Reconciled.jpg" alt="" title="This is an example of a caption" />
-        <img src="assets/Smoldernig-Reed--that-will-.jpg" alt="" />
-        <img src="assets/WHEN-They-Began-to-Praise--.jpg" alt="" />
+    <div class="slider-wrapper theme-default span-24 right left last">
+        <div class="ribbon"></div>
+        <div id="slider" class="nivoSlider">
+            <img src="assets/In-the-Storm-Be-stil.jpg" alt="" />
+            <img src="assets/Reconciled.jpg" alt="" title="This is an example of a caption" />
+            <img src="assets/Smoldernig-Reed--that-will-.jpg" alt="" />
+            <img src="assets/WHEN-They-Began-to-Praise--.jpg" alt="" />
+        </div>
     </div>
-</div>
-<br><br>
-  <%= link_to "Go to the Gallery", "gallerypath", :class => "signup_button round" %>
+    
+      <hr class="space">
+      <%= link_to "Go to the Gallery", "gallerypath", :class => "signup_button round" %>
+      
+      <hr>
+      <h2 class="alt">This sample page demonstrates a tiny fraction of what you get with Blueprint.</h2>
+      <hr>
+      <div class="span-7 colborder">
+        <h6>Here's a box</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+      </div>
+      <div class="span-8 colborder">
+
+        <h6>And another box</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat laboris nisi ut aliquip.</p>
+      </div>
+      <div class="span-7 last">
+        <h6>This box is aligned with the sidebar</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+      </div>
+
+      <hr>
+      <hr class="space">

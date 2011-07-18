@@ -4,7 +4,10 @@
 
 <script type="text/javascript">
 $(window).load(function() {
-    $('#slider').nivoSlider();
+    $('#slider').nivoSlider({
+       effect:'fade',
+       controlNav:false
+    });
 });
 </script>
   <h1>Sample App</h1>
@@ -18,15 +21,15 @@ $(window).load(function() {
     <div class="slider-wrapper theme-default span-24 right left last">
         <div class="ribbon"></div>
         <div id="slider" class="nivoSlider">
-            <img src="assets/In-the-Storm-Be-stil.jpg" alt="" />
-            <img src="assets/Reconciled.jpg" alt="" title="This is an example of a caption" />
-            <img src="assets/Smoldernig-Reed--that-will-.jpg" alt="" />
-            <img src="assets/WHEN-They-Began-to-Praise--.jpg" alt="" />
+            <%= link_to image_tag("In-the-Storm-Be-stil.jpg"), "gallerypath" %>
+            <%= link_to image_tag("Reconciled.jpg"), "gallerypath" %>
+            <%= link_to image_tag("Smoldernig-Reed--that-will-.jpg"), "gallerypath" %>
+            <%= link_to image_tag("WHEN-They-Began-to-Praise--.jpg"), "gallerypath" %>
         </div>
     </div>
     
       <hr class="space">
-      <%= link_to "Go to the Gallery", "gallerypath", :class => "signup_button round" %>
+      <%= link_to "Go to the Gallery", "gallerypath", :class => "big_button round" %>
       
       <hr>
       <h2 class="alt">This sample page demonstrates a tiny fraction of what you get with Blueprint.</h2>
